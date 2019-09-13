@@ -1,8 +1,8 @@
 function submit_message(message) {
-    console.log(message)
+    console.log("message: "+message)
     $.post( "/send_message", {message: message}, handle_response);
-    console.log(handle_response)
-    function handle_response(data) {h
+    console.log("response: "+ handle_response)
+    function handle_response(data) {
       // append the bot repsonse to the div
       $('.chat-container').append(`
             <div class="chat-message bot-message">
@@ -49,6 +49,6 @@ $('#target').on('submit', function(e){
     $('#input_message').val('')
 
     // send the message
-    consonle.log(input_message)
+    console.log("input: " + input_message)
     submit_message(input_message)
 });
