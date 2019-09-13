@@ -1,4 +1,5 @@
 function submit_message(message) {
+    console.log(message)
     $.post( "/send_message", {message: message}, handle_response);
 
     function handle_response(data) {
