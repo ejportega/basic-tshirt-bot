@@ -39,6 +39,7 @@ $('#target').on('submit', function(e){
         </div>
     `)
 
+    console.log("input: " + input_message)
     // loading 
     $('.chat-container').append(`
         <div class="chat-message bot-message" id="loading">
@@ -50,6 +51,5 @@ $('#target').on('submit', function(e){
     $('#input_message').val('')
 
     // send the message
-    console.log("input: " + input_message)
     submit_message(input_message)
 });
