@@ -1,8 +1,8 @@
 function submit_message(message) {
     console.log(message)
     $.post( "/send_message", {message: message}, handle_response);
-
-    function handle_response(data) {
+    console.log(handle_response)
+    function handle_response(data) {h
       // append the bot repsonse to the div
       $('.chat-container').append(`
             <div class="chat-message bot-message">
