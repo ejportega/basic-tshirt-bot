@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>Basic Tshirt | Online Shop</title>
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <!-- <img src="{{ url_for('static', filename='logo.png') }}" /> -->
+        <h1>Basic Tshirt</h1>
+        <p>BUY FIRST-RATE TSHIRTS ONLINE</p>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-home fa-fw"></i>Home</a>
+        <!-- <a href="#"  class="list-group-item list-group-item-action"><i class="fas fa-sign-in-alt fa-fw"></i>Sign In</a> -->
+        <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-tshirt fa-fw"></i>Products</a>
+        <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-robot fa-fw"></i>Bot Talks</a>
+        <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-info-circle fa-fw"></i>About Us</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->  
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <!-- main -->
+      <div class="container-fluid">
+        <div class="main-heading">Basic Tshirt Bot</div>
+        <div class="chat-box">
+          <div class="chat-container">
+            <div class="chat-message bot-message">
+              <div class="chat-image">
+                <img src="https://imgur.com/3pgjFvq.png" />
+              </div>
+              <b>Bot: </b>
+              What's up! I'm the Basic Tshirt Bot and I'm here to answer any questions  have about Basic Tshirt.
+            </div>
+          </div>
+          <div class="input-container">
+            <form id="target">
+              <input class="input" type="text" value="" placeholder="Enter message..." id="input_message"/>
+              <input type="submit" hidden>
+            </form>
+        </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper --> 
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js')}}"></script>
+
+  <!-- Font Awesome SVG icons script -->
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

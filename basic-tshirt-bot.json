@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "basic-tshirt-bot-prxkev",
+  "private_key_id": "ee4218b4a04d2dc7b8fc2292455ad7e9c61da516",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCQH2Gg4RT7Nbye\nrreIf4WaZ/9wJvEYrS4RxfiolugRCbFalSA4hgexVKCVAdBgCk+EQ+E9/P5bgsAv\n4DSd6nbP7FIdgYLXSdEcfvINlTqE0x5li4JgPc8p8f1pCLm+P4d9hMEWjeQNBHwM\nFdZJWJ8ZfTYo/qgZFj9XCdodF+JKrrR54B8yT/GxCI1wABejED9fAEPeIqJygqHn\nma6+TMlxYF1l651Jt14UB6fBjhydhTb6PijArkx2h2zPqlbxWyeQDgOq+1G2IH71\nVpPCExQ4WzUYTltqCWvq4+U0ums/48REyCD0VRQ/ILrJlY5gtlsVCwNITH4oANnL\nwjXzFku7AgMBAAECggEABhclZ4iLe/Ax59zHSb/l0/gYHdOvdZT/8OVWVD2IUgwA\nUC0kHu9fDNngLVvVw/E7mgHKV3XFA/X7DCrj3laFrdS1RaTu9A0dBqDAtt07C1jm\nnHDwUgPaqNGenV0uiEEkByRgioT1ga1SVqpnk1Lo6klVzBay4NiFVbbHXlpfiDtY\njYz+Uw599V1H8SQWYewNv46rM8hgXmuwUZbrYV51W8vrRjIzskYbPE/vxm2opkz0\nXfMZiHC8iSD/QhkskgQSSx4gZCnxWB6fLvHc2qq91HwVte4YACT4aOvRh523O3MO\nnsih/PUPkYMI8H9BdUcvQJ7nGHMLbKfiqUGxWeVW0QKBgQDDNG36wtnselYTZhJc\nfSAeK/yZfZWbPp4w8yQbkU66rYcJtFogAZsmoR30JM7ODd2ptnEWAKdcF2NMyC/b\nf4SFMkN0xS4gQ503Pj2IMtMgMZcfNy85FPSstNKkU9Fx/hICttJGqqGx1bElaBYI\ngaeBxFBAYK+6iGnUE3n84AAPMQKBgQC9AjHdcLnSBIdfnAUpSL7wMr6jcvAyhwhg\nYhynn6CVmtQBXoRrcaHI8yazcJ2PjAo2D5P+9xf+2alJ8Jtfpneg0t4/Aa+oxpYE\nOy8QOY2lQCFJ33nR2GNni9OOq0ZY9XDglNLLZcAXiEy9Zwa2xD0QVRsa9pLuct5m\nQWxym4EGqwKBgBekyBVxeHfeMYLUADFXroY5CbWFspNFOF/xc1Qre3+8+PhB8hCi\nYSqCpWAm/S2UHF8sC/KATcUnyA1KyhEqFuETP3xrTbT2u5ovXcCbd1sU5psPUhb1\n5NTuaf0hceL+xSuy/TE2BbPGkFhZjSGmoqVjI91IWMCdOURIv6PTde5hAoGAeLT0\nH5WkNooJ4neDnFAHEON3eG8pEzvFj7hY0HxTU/fjOVShgPS6+9i9eI+NMGWhB9F/\nFK+9NVbQlJYCxF1NvPmuUdLD2iepGt6pOdVnrod8Ou9rnyZwpWpZG54qeRmWkva4\ngIlk2iKDz9oCIarFzK5tdxTN1VaqzecuWSsSha0CgYEAuJmv7KWIpEARF208R44G\nsu7tZZJ4QCgSlrnxTHtUKlxZpnbJL2+0lLPWQam1pS0mEn3nmHbAVHzEFlwxKO9s\n09+xkt/60oliXPXaKEDG1uLHZGOYFFhKHlkW5ESqrqthoalF3SvKdo8BCD08A8ib\nMw010q4jvhRtqoZgN7FDfww=\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-dialogflow-integration@basic-tshirt-bot-prxkev.iam.gserviceaccount.com",
+  "client_id": "115833291857729535300",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-dialogflow-integration%40basic-tshirt-bot-prxkev.iam.gserviceaccount.com"
+}

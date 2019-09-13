@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+/* @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"; */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Indie Flower', 'Comic Sans', cursive; */
+  /* font-size: 1.5em; */
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  background-color: #1A1A1D;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  /* padding: 0.875rem 1.25rem; */
+  /* font-size: 1.2rem; */
+  width: 15rem;
+}
+
+#sidebar-wrapper .list-group {
+  padding: 0.875rem 0.75rem;
+  /* width: 15rem; */
+}
+
+#sidebar-wrapper a {
+  background-color: #4E4E50;
+  font-size: 0.85em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+#sidebar-wrapper a:hover {
+  color: #1A1A1D;
+  background: #fff;
+  transform: scale(1.1)
+}
+
+#sidebar-wrapper a:active {
+  color: #fff;
+  background: #e5c163; 
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.sidebar-heading {
+  /* position: relative; */
+  text-align: center;
+  /* background-color: #6F2232; */
+  background-color: #4E4E50;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  line-height: 1;
+}
+
+.sidebar-heading h1 {
+  font-family:  'Indie Flower', 'Comic Sans', cursive; 
+  font-weight: bold;
+}
+
+.sidebar-heading p {
+  font-size: 0.75rem;
+}
+
+/* .sidebar-heading img {
+  width: 400px;
+  height: 200px;
+} */
+
+
+.main-heading {
+  padding: 0.875rem 1.25rem;
+  font-family:  'Indie Flower', 'Comic Sans', cursive; 
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chat-box {
+  max-width: 120vh;
+  border:1px solid #bbb;
+  margin: auto;
+}
+
+.chat-container {
+  overflow: auto;
+  padding: 1.25rem;
+  background-color: #fff;
+  height: 60vh;
+  border-top:1px dotted #bbb;
+  padding:10px;
+}
+
+.chat-image {
+  width:30px;
+  margin-right:5px;
+  height:100%;
+  float:left;
+}
+
+.chat-image img {
+  width:100%;
+  border-radius:50%;
+}
+
+.chat-message {
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+  font-size: 1.00rem;
+  margin-bottom: 10px;
+}
+
+.bot-message {
+  background-color: #CEFECC;
+}
+
+.human-ma
+
+.input-container {
+  width: 100%;
+}
+
+.input-container input {
+  width: 100%;
+}
+
+.fa-fw{
+  margin-right: 1em;
+}
