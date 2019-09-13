@@ -1,7 +1,7 @@
 console.log("First")
 function submit_message(message) {
     console.log("message: "+message)
-    $.post( "/send_message", {message: message}, handle_response);
+    $.post( "https://basic-tsirt-bot.herokuapp.com//send_message", {message: message}, handle_response);
     console.log("response: "+ handle_response)
     function handle_response(data) {
       // append the bot repsonse to the div
