@@ -1,3 +1,4 @@
+console.log("First")
 function submit_message(message) {
     console.log("message: "+message)
     $.post( "/send_message", {message: message}, handle_response);
