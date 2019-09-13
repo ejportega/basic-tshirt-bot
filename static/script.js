@@ -49,5 +49,6 @@ $('#target').on('submit', function(e){
     $('#input_message').val('')
 
     // send the message
+    consonle.log(input_message)
     submit_message(input_message)
 });
