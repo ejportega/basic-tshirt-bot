@@ -25,7 +25,7 @@ def webhook():
         reply = buy_tshirt_no_action(data)
         return jsonify(reply)
 
-@app.route('https://basic-tsirt-bot.herokuapp.com/send_message', methods=['POST'])
+@app.route('/send_message', methods=['POST', 'GET'])
 def send_message():
     message = request.form['message']
     project_id = os.getenv('DIALOGFLOW_PROJECT_ID')
