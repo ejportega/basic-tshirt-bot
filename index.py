@@ -26,7 +26,7 @@ def webhook():
         reply = buy_tshirt_no_action(data)
         return jsonify(reply)
 
-@app.route('/send_message', methods=['GET', 'POST'])
+@app.route('/send_message', methods=['POST'])
 def send_message():
     message = request.form['message']
     project_id = os.getenv('DIALOGFLOW_PROJECT_ID')
